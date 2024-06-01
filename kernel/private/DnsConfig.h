@@ -36,7 +36,7 @@ public:
     static const char *kIPv6;
     static const char *kTTL;
 
-    static constexpr uint32_t kDefaultTTL   = 30U;
+    static constexpr uint32_t kDefaultTTL   = 300U;
 
     DnsConfig() = default;
     DnsConfig(const Arguments &arguments);
